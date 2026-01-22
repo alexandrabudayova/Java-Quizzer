@@ -1,0 +1,151 @@
+ .button {
+     -fx-font-family:"Rockwell";
+     -fx-background-color:#ffffff;
+     -fx-text-fill: #ff99c8;
+     -fx-font-weight: bold;
+     -fx-border-color: #8bf4ff;
+     -fx-border-width: 3px;
+     -fx-border-radius: 5px;
+ }
+ .button:hover {
+     -fx-background-color: #ffffff;
+     -fx-border-color: #ff99c8;
+     -fx-text-fill: #8bf4ff;
+ }
+.circle {
+    -fx-fill: #ffffff;
+    -fx-stroke: #ff99c8;
+    -fx-stroke-width: 2;
+}
+ .custom-radio-button:selected .circle {
+     -fx-fill: #ffffff;
+     -fx-stroke: #009900;
+     -fx-stroke-width: 2;
+ }
+ .radio-button:selected .radio .dot {
+     -fx-background-color: red;
+     -fx-background-insets: 0;
+ }
+.questionSlot {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ff99c8;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-font-family:"Rockwell";
+    -fx-fill:#ff99c8;
+    -fx-text-fill:#ff99c8;
+    -fx-font-size: 30px;
+    -fx-stroke: #ff2f8f;
+    -fx-stroke-width: 0.1;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+}
+ .answerSlot {
+     -fx-alignment: center;
+     -fx-text-alignment: center;
+     -fx-font-family:"Rockwell";
+     -fx-fill:#ff99c8;
+     -fx-text-fill:#ff99c8;
+     -fx-font-size: 30px;
+     -fx-stroke: #ff2f8f;
+     -fx-stroke-width: 0.1;
+     -fx-font-weight: bold;
+    }
+ .answerButtons {
+      -fx-font-family:"Rockwell";
+      -fx-background-color:#ffffff;
+      -fx-text-fill: #ff99c8;
+      -fx-font-weight: bold;
+      -fx-border-color:  #ff99c8;
+      -fx-border-width: 2px;
+      -fx-border-radius: 5px;
+ }
+ .correctAnswer {
+       -fx-font-family:"Rockwell";
+       -fx-background-color:#b6fa9b;
+       -fx-text-fill: #ff99c8;
+       -fx-font-weight: bold;
+       -fx-border-color:  #ff99c8;
+       -fx-border-width: 2px;
+       -fx-border-radius: 5px;
+       }
+ .wrongAnswer {
+     -fx-font-family:"Rockwell";
+     -fx-background-color:#fab69b;
+     -fx-text-fill: #ff99c8;
+     -fx-font-weight: bold;
+     -fx-border-color:  #ff99c8;
+     -fx-border-width: 2px;
+     -fx-border-radius: 5px;
+ }
+ .text_104 {
+      -fx-font-family:"Rockwell";
+      -fx-fill: #ff99c8;
+      -fx-font-size: 104px;
+      -fx-stroke: #ff2f8f;
+      -fx-stroke-width: 0.3;
+      -fx-font-weight: bold;
+  }
+ .text_45 {
+        -fx-font-family:"Rockwell";
+        -fx-fill:#ff99c8;
+        -fx-text-fill:#ff99c8;
+        -fx-font-size: 45px;
+        -fx-stroke: #ff2f8f;
+        -fx-stroke-width: 0.2;
+        -fx-font-weight: bold;
+    }
+ .text_25 {
+       -fx-font-family:"Rockwell";
+       -fx-fill:#ff99c8;
+       -fx-text-fill:#ff99c8;
+       -fx-font-size: 25px;
+       -fx-stroke: #ff2f8f;
+       -fx-stroke-width: 0.1;
+       -fx-font-weight: bold;
+ }
+
+ .text_40 {
+         -fx-font-family:"Rockwell";
+         -fx-fill:#ff99c8;
+         -fx-text-fill:#ff99c8;
+         -fx-font-size: 40px;
+         -fx-stroke: #ff2f8f;
+         -fx-stroke-width: 0.2;
+         -fx-font-weight: bold;
+     }
+ .text_13 {
+       -fx-font-family:"Rockwell";
+       -fx-fill:#ff99c8;
+       -fx-font-size: 13px;
+       -fx-stroke: #ff2f8f;
+       -fx-stroke-width: 0.1;
+       -fx-font-weight: bold;
+ }
+ .text_20 {
+        -fx-font-family:"Rockwell";
+        -fx-fill:#ff99c8;
+        -fx-font-size: 20px;
+        -fx-stroke: #ff2f8f;
+        -fx-stroke-width: 0.1;
+        -fx-font-weight: bold;
+        -fx-text-fill:#ff99c8;
+ }
+ .scores{
+     -fx-background-color: #ffffff;
+     -fx-border-color: #ff99c8;
+     -fx-font-family:"Rockwell";
+     -fx-fill:#ff99c8;
+     -fx-text-fill:#ff99c8;
+     -fx-font-size: 25px;
+     -fx-stroke: #ff2f8f;
+     -fx-stroke-width: 0.1;
+     -fx-border-width: 2px;
+     -fx-font-weight: bold;
+ }
+.scene-background{
+      -fx-background-image: url("BACKIMG.PNG");
+  }
+ .root {
+    -fx-background-color: #f0fee9;
+ }
